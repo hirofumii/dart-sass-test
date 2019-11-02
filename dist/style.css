@@ -1,0 +1,40 @@
+h1 {
+  color: #000 \9 ;
+}
+
+code {
+  padding: 0.25em;
+  line-height: 0;
+}
+
+ul,
+ol {
+  text-align: left;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+code {
+  border-radius: 0.1rem;
+  box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.15);
+}
+
+.button {
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.button {
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.button {
+  border-radius: 3px;
+  padding: 8px;
+}

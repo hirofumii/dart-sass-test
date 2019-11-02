@@ -1,5 +1,31 @@
-@import "import";
+@use "import";
+@use 'foundation/code';
+@use 'foundation/lists';
 
-body {
-  color: #000 \9;
+// Loading Members
+@use "foundation/corners";
+
+// Choosing a Namespace
+@use "foundation/corners" as c;
+@use "foundation/corners" as *;
+
+// Configuring Modules
+@use "foundation/library" with (
+  $black: #222,
+  $border-radius: 0.1rem
+);
+
+.button {
+  @include corners.rounded;
+  padding: 5px + corners.$radius;
+}
+
+.button {
+  @include c.rounded;
+  padding: 5px + c.$radius;
+}
+
+.button {
+  @include rounded;
+  padding: 5px + $radius;
 }
