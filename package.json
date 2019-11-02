@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass ./src/style.scss ./dist/style.css"
+    "start": "sass --no-source-map ./src/style.scss ./dist/style.css"
   },
   "keywords": [],
   "author": "",
